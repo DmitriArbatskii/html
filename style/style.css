@@ -42,17 +42,23 @@ header img {
     margin-bottom: 10px;
 }
 
-.main-nav__button {
+.main-nav__link {
+    display: inline-block;
     box-sizing: border-box;
     color: white;
     background-color: #383838;
     border: none;
     border-radius: 0;
-    line-height: 29px;
+    font-size: 13px;
+    line-height: 30px;
     width: 105px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: -4px;
 }
 
-.main-nav__button_active {
+.main-nav__link_active,
+.main-nav__link:hover {
     background-color: white;
     color: #383838;
 }
@@ -72,7 +78,8 @@ header img {
     background-color: #cccccc;
 }
 
-.left-nav__button {
+.left-nav__link {
+    display: block;
     width: 202px;
     height: 35px;
     background-color: #383838;
@@ -85,7 +92,8 @@ header img {
     font-size: 14px;
 }
 
-.left-nav__button_active {
+.left-nav__link_active,
+.left-nav__link:hover {
     background-color: white;
     color: #383838;
     text-decoration: underline;
